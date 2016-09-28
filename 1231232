@@ -1,0 +1,16 @@
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {int a;
+            Console.WriteLine("Введите число");
+            a = Convert.ToInt32(Console.ReadLine());
+            if (a % 4 == 0)
+                Console.WriteLine(a / 4);
+            else if (a % 2 == 1)
+                Console.WriteLine((a + 4));
+            Console.ReadKey ();
+        }
+    }
+}
